@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Allen\\code\\homework_practice\\practice\\practice.csproj",
+      "projectUniqueName": "C:\\Users\\Allen\\code\\homeworkpractice-sarah-strawberries\\practice.csproj",
       "projectName": "practice",
-      "projectPath": "C:\\Users\\Allen\\code\\homework_practice\\practice\\practice.csproj",
+      "projectPath": "C:\\Users\\Allen\\code\\homeworkpractice-sarah-strawberries\\practice.csproj",
       "packagesPath": "C:\\Users\\Allen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Allen\\code\\homework_practice\\practice\\obj\\",
+      "outputPath": "C:\\Users\\Allen\\code\\homeworkpractice-sarah-strawberries\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Allen\\AppData\\Roaming\\NuGet\\NuGet.Config",
