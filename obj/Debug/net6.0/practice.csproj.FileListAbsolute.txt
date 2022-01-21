@@ -1,0 +1,5 @@
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\obj\Debug\net6.0\practice.csproj.AssemblyReference.cache
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\obj\Debug\net6.0\practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\obj\Debug\net6.0\practice.AssemblyInfoInputs.cache
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\obj\Debug\net6.0\practice.AssemblyInfo.cs
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\obj\Debug\net6.0\practice.csproj.CoreCompileInputs.cache
