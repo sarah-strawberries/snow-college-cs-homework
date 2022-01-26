@@ -6,18 +6,35 @@ namespace Section4_8Practice
     {
         public interface IBusiness
         {
-            public void BuySomething();
+            public void BuySomething(string thing, decimal cost);
             public bool SellSomething();
-            private decimal funds;
-            private string kindOfBusiness;
-            private IDictionary<string, int> QtyInventory = new IDictionary<string, int>();
-            private IDictionary<string, decimal> ProductsForSale = new IDictionary<string, decimal>();
 
         }
 
-        public class Manufacturer : IBusiness
+        public abstract class Business : IBusiness
         {
-            
+            void IBusiness.BuySomething(string thing, decimal cost)
+            {
+        
+            }
+
+            bool IBusiness.SellSomething()
+            {
+                throw new NotImplementedException();
+            }
+            protected decimal funds;
+            private string kindOfBusiness;
+            public Business(string kind, decimal startingFunds)
+            {
+                kindOfBusiness = kind;
+                funds = startingFunds;
+            }
+        }
+        public class BigBusiness : Business, IBusiness
+        {
+            public override void BuySomething(string thing, decimal cost)
+            {
+            }
         }
     }
 }
