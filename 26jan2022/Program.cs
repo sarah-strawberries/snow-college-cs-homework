@@ -30,7 +30,7 @@ namespace Section4_8Practice
                 funds = startingFunds;
             }
         }
-        public class BigBusiness : Business, IBusiness
+        public class BigBusiness : Business, IBusiness //do something to inherit "kind" from base
         {
             public override void BuySomething(string thing, decimal cost)
             {
