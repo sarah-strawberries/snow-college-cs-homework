@@ -1,13 +1,4 @@
-﻿/*
-Concepts to review:
--overloading
--overriding
--exceptions
--ToString
--var (uses for it)
--Debugging!!!
-*/
-using System;
+﻿using System;
 namespace PracticeWithStrings
 {
     public abstract class TextConverter
