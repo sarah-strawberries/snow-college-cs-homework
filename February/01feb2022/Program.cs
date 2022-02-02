@@ -4,32 +4,34 @@ namespace PracticeWithDelagates
     public delegate bool DoChores(int choreNum);
     public class MyChores
     {
-        public static int choreNumber;
-        public static int DoChore()
+        public static int choreNumber = 0;
+        public static int DoChore(int choreNum)
         {
-            if (choreNumber == 0)
+            if (choreNum == 0)
             {
                 Console.WriteLine("You swept the floor!");
-                choreNumber++;
+                choreNumber = choreNum;
                 return choreNumber;
             }
-            if(choreNumber == 1)
+            if (choreNum == 1)
             {
                 Console.WriteLine("You did the dishes!");
-                choreNumber++;
+                choreNumber = choreNum;
                 return choreNumber;
             }
-            if (choreNumber == 2)
+            if (choreNum == 2)
             {
                 Console.WriteLine("You cleaned your room!");
-                choreNumber++;
+                choreNumber = choreNum;
                 return choreNumber;
             }
             else
             {
                 Console.WriteLine("You washed a window!");
+                choreNumber = choreNum;
                 return choreNumber;
             }
+
         }
         public int ChoreCount()
         {
@@ -37,8 +39,9 @@ namespace PracticeWithDelagates
             return 0;
         }
     }
-    public static Main()
+    public class Program
     {
-        DoChores(DoChore);
+        DoChores test = new DoChores(DoChore);
+
     }
 }
