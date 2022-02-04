@@ -10,7 +10,7 @@ namespace PracticeWithHashesAndArrays
             Name = name;
             if (startingBalance <0)
             {
-                throw new BadAnswerException("No negative starting balances allowed!");
+                throw new BadInputException("No negative starting balances allowed!");
             }
             balance = startingBalance;
         }
@@ -36,6 +36,11 @@ namespace PracticeWithHashesAndArrays
             balance = balance - amount;
             Console.WriteLine($"Your withdrawal of ${amount} was successful.");
             return true;
+        }
+
+        string IAccount.GetName()
+        {
+            return this.Name;
         }
     }
 }
