@@ -5,7 +5,8 @@ namespace PracticeWithStrings
     {
         public virtual void GetMessage()
         {
-            //Do stuff
+            Console.WriteLine("Write your message here: ");
+            string? message = Console.ReadLine().Trim();
         }
         public virtual void Convert(string message)
         {
@@ -14,10 +15,18 @@ namespace PracticeWithStrings
     }
     public class PigLatinConverter : TextConverter
     {
-        private string firstLetterOfWord = "";
-        private string restOfWord = "";
-        private string newWord = "";
-        private string wordEnding = "";
+        private string firstLetterOfWord;
+        private string restOfWord;
+        private string newWord;
+        private string wordEnding;
+        public enum Vowels
+        {
+            a,
+            e,
+            i,
+            o,
+            u
+        }
 
         private bool firstLetterIsVowel()
         {
