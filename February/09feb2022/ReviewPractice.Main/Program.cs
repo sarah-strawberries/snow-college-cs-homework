@@ -11,6 +11,12 @@ namespace ReviewPractice
             {
                 // if (word[0] =
             }
+            return "hi";
+        }
+
+        public void Main()
+        {
+            Console.WriteLine("Hi!");
         }
     }
 }
