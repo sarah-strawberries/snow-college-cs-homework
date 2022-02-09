@@ -1,70 +1,65 @@
 ﻿using System;
 namespace PracticeWithStrings
 {
-    public abstract class TextConverter
+    class Program
     {
-        public virtual void GetMessage()
+        public class PigLatinConverter
         {
-            Console.WriteLine("Write your message here: ");
-            string? message = Console.ReadLine().Trim();
-        }
-        public virtual void Convert(string message)
-        {
-            //Do stuff
-        }
-    }
-    public class PigLatinConverter : TextConverter
-    {
-        private string firstLetterOfWord;
-        private string restOfWord;
-        private string newWord;
-        private string wordEnding;
-        public enum Vowels
-        {
-            a,
-            e,
-            i,
-            o,
-            u
+            public string Message { get; private set; }
+            private string firstLetterOfWord;
+            private string restOfWord;
+            private string newWord;
+            private string wordEnding;
+            //     public void GetMessage()
+            //     {
+            //         Console.WriteLine("Write your message here: ");
+            //         public string? Message = Console.ReadLine().Trim();
+            // }
+            public void GetMessage()
+            {
+                Console.WriteLine("Write your message here: ");
+                string Message = Console.ReadLine().Trim().ToLower();
+            }
+
+            private bool firstLetterIsVowel()
+            {
+
+                string firstLetter = Message[0];
+                {
+                    if (firstLetter == "a" || firstLetter == "e" || firstLetter == "i" || firstLetter == "o" || firstLetter == "u")
+                        return true;
+                }
+                return false;
+            }
+    
+            public void Convert(string message)
+            {
+                List<string> ConvertedMessage = new List<string>();
+                string[] Words = message.Split(" ");
+                foreach (var word in Words)
+                {
+                    firstLetterOfWord = word.Substring(0, 1).ToLower();
+                    if (firstLetterIsVowel())
+                    {
+                        wordEnding = "way";
+                        restOfWord = word;
+                        newWord = restOfWord + wordEnding;
+                        ConvertedMessage.Add(newWord);
+                    }
+                    else
+                    {
+                        wordEnding = "ay";
+                        restOfWord = word.Substring(1, word.Length);
+                        newWord = restOfWord + firstLetterOfWord + wordEnding;
+                        ConvertedMessage.Add(newWord);
+                    }
+                }
+            }
         }
 
-        private bool firstLetterIsVowel()
+        public void Main()
         {
-            if (firstLetterOfWord == "a" || firstLetterOfWord == "e" || firstLetterOfWord == "i" || firstLetterOfWord == "o" || firstLetterOfWord == "u")
-            {
-                return true;
-            }
-            return false;
-        }
-        public override void GetMessage()
-        { 
-            string originalMessage = Console.ReadLine("Write the message here:").Trim();
-            Console.WriteLine("Thank you for inputting a message! Your message will be converted shortly.");
-            Console.WriteLine("Converting...");
-            Convert();                  
-        }
-        public override void Convert(string message)
-        {
-            List<string> ConvertedMessage;
-            string[] Words = message.Split(" ");
-            foreach (var word in Words)
-        {
-            // split the word into its first letter and its last part
-            firstLetterOfWord = word.Substring(0,1).ToLower();
-            if (firstLetterIsVowel())
-            {
-                wordEnding = "way";
-                restOfWord = word;
-                newWord = restOfWord + wordEnding;
-            }
-            else
-            {
-                wordEnding = "ay";
-                restOfWord = word.Substring(1,word.Length);
-                newWord = restOfWord + firstLetterOfWord + wordEnding;
-            }
-            //ConvertedMessage.Add(newWord);
-        }            
+
         }
     }
 }
