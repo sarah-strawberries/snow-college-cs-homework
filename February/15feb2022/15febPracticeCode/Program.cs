@@ -1,6 +1,6 @@
 ﻿using System;
 
-class MyPerson
+public class MyPerson
 {
     public MyPerson(string name, int age)
     {
@@ -14,11 +14,20 @@ class MyPerson
     }
     string name;
     int age;
-    public bool StoreMyPersonsInfo()
+    public static bool StoreMyPersonsInfo(MyPerson person)
     {
         //do stuff that makes the MyPerson object get saved, probably using a stream
         // var myFile = new System.IO.StreamWriter(myFile);
-        // return false;
+        return false;
     }
+
+ public static void Main()
+ {
+
+ }
+
+
 }
+
+
 

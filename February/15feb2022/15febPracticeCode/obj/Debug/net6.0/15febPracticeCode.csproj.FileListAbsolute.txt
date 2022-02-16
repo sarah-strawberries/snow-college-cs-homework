@@ -1,0 +1,15 @@
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\obj\Debug\net6.0\15febPracticeCode.csproj.AssemblyReference.cache
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\obj\Debug\net6.0\15febPracticeCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\obj\Debug\net6.0\15febPracticeCode.AssemblyInfoInputs.cache
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\obj\Debug\net6.0\15febPracticeCode.AssemblyInfo.cs
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\obj\Debug\net6.0\15febPracticeCode.csproj.CoreCompileInputs.cache
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\bin\Debug\net6.0\15febPracticeCode.exe
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\bin\Debug\net6.0\15febPracticeCode.deps.json
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\bin\Debug\net6.0\15febPracticeCode.runtimeconfig.json
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\bin\Debug\net6.0\15febPracticeCode.dll
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\bin\Debug\net6.0\ref\15febPracticeCode.dll
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\bin\Debug\net6.0\15febPracticeCode.pdb
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\obj\Debug\net6.0\15febPracticeCode.dll
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\obj\Debug\net6.0\ref\15febPracticeCode.dll
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\obj\Debug\net6.0\15febPracticeCode.pdb
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode\obj\Debug\net6.0\15febPracticeCode.genruntimeconfig.cache

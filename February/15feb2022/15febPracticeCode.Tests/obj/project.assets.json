@@ -882,6 +882,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "15febPracticeCode/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/15febPracticeCode.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/15febPracticeCode.dll": {}
+        }
       }
     }
   },
@@ -3844,10 +3854,16 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "15febPracticeCode/1.0.0": {
+      "type": "project",
+      "path": "../15febPracticeCode/15febPracticeCode.csproj",
+      "msbuildProject": "../15febPracticeCode/15febPracticeCode.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "15febPracticeCode >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "NUnit >= 3.13.2",
       "NUnit3TestAdapter >= 4.0.0",
@@ -3880,7 +3896,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Allen\\code\\homeworkpractice-sarah-strawberries\\February\\15feb2022\\15febPracticeCode\\15febPracticeCode.csproj": {
+              "projectPath": "C:\\Users\\Allen\\code\\homeworkpractice-sarah-strawberries\\February\\15feb2022\\15febPracticeCode\\15febPracticeCode.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

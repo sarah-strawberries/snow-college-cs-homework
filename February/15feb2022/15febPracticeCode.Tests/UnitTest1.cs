@@ -7,11 +7,14 @@ public class Tests
     [SetUp]
     public void Setup()
     {
+        
     }
 
     [Test]
     public void Test1()
     {
-        Assert.Pass();
+        MyPerson p1 = new MyPerson();
+        MyPerson.StoreMyPersonsInfo(p1);
+        Assert.AreEqual(MyPerson.StoreMyPersonsInfo(p1), true);
     }
 }

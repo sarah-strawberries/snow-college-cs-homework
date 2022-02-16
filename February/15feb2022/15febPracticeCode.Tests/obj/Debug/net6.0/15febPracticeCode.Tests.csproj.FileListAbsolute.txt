@@ -97,3 +97,9 @@ C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15feb
 C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode.Tests\obj\Debug\net6.0\ref\15febPracticeCode.Tests.dll
 C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode.Tests\obj\Debug\net6.0\15febPracticeCode.Tests.pdb
 C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode.Tests\obj\Debug\net6.0\15febPracticeCode.Tests.genruntimeconfig.cache
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode.Tests\bin\Debug\net6.0\15febPracticeCode.deps.json
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode.Tests\bin\Debug\net6.0\15febPracticeCode.runtimeconfig.json
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode.Tests\bin\Debug\net6.0\15febPracticeCode.exe
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode.Tests\bin\Debug\net6.0\15febPracticeCode.dll
+C:\Users\Allen\code\homeworkpractice-sarah-strawberries\February\15feb2022\15febPracticeCode.Tests\bin\Debug\net6.0\15febPracticeCode.pdb
