@@ -42,6 +42,5 @@ namespace PracticeWithDelagates
     public class Program
     {
         DoChores test = new DoChores(DoChore);
-
     }
 }
