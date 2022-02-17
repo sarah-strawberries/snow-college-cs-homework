@@ -42,7 +42,7 @@ public class MyPerson
 
     public static MyPerson LoadPersonFromFile()
     {
-        MyPerson retrievedPerson = null;
+        MyPerson retrievedPerson = new MyPerson();
         System.IO.TextReader readText = null;
         try
         {
@@ -54,18 +54,25 @@ public class MyPerson
             {
                 retrievedPerson.name = nameText;
                 retrievedPerson.age = ageInt;
+                
             }
         }
         catch
         {
             return null;
         }
-        return retrievedPerson;
+        return retrievedPerson as MyPerson;
+        readText.Close();
     }
 
  public static void Main()
  {
-
+     MyPerson testPerson = new MyPerson("Minnie Mouse", 93);
+     MyPerson.StoreMyPersonsInfo(testPerson);
+     MyPerson retrievedTestPerson = MyPerson.LoadPersonFromFile();
+     Console.WriteLine("Person Details:");
+     Console.WriteLine($"Name: {retrievedTestPerson.name}");
+     Console.WriteLine($"Age: {retrievedTestPerson.age}");
  }
 
 
