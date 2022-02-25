@@ -1,8 +1,12 @@
-﻿public partial class HomeworkPracticeProgram
+﻿namespace test
 {
-    public void Main()
+    public class HomeworkPracticeProgram
     {
-        Cat cat1 = new Cat("Boris");
-        cat1.Meow();
+        public void Main()
+        {
+            Cat cat1 = new Cat("Boris");
+            cat1.Meow();
+        }
     }
 }
+
