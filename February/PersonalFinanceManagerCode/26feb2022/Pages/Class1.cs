@@ -1,4 +1,6 @@
-public class Test
+public class Bank
 {
-    
+   private string name;
+   
+
 }
