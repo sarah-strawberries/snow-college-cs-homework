@@ -1,4 +1,4 @@
-partial namespace PersonalFinanceManager
+namespace PersonalFinanceManager
 {
     public abstract class Account
     {
@@ -19,7 +19,8 @@ partial namespace PersonalFinanceManager
         public enum AccountType
         {
             Checking,
-            Savings
+            Savings,
+            MoneyMarket
         }
 
         public virtual decimal GetBalance()
