@@ -1,27 +1,36 @@
-﻿using System;
-using System.Collections;
-
-public class Program
+﻿public delegate decimal CalculateFee(decimal balance);
+public class DelegateDemo
 {
-    public Hashtable table1 = new Hashtable();
-    public void AddStuffAndDoStuff()
+    public static decimal RipoffFee(decimal balance)
     {
-        table1.Add("key", new Cow());
-        Cow retrievedCow = table1[0] as Cow;
-        retrievedCow.Moo();
-    }
-
-
-    public class Cow
-    {
-        public void Moo()
+        Console.WriteLine("Calling the Ripoff Method");
+        if (balance < 0)
         {
-            Console.WriteLine("Moo");
+            return 100;
+        }
+        else
+        {
+            return 1;
+        }
+    }
+    public static decimal FriendlyFee(decimal balance)
+    {
+        Console.WriteLine("Calling the Friendly Method");
+        if (balance < 0)
+        {
+            return 10;
+        }
+        else
+        {
+            return 1;
         }
     }
     public static void Main()
     {
-        Program p = new Program();
-        p.AddStuffAndDoStuff();
+        CalculateFee calc;
+        calc = new CalculateFee(RipoffFee);
+        calc(-1); // this will call the Ripoff method
+        calc = new CalculateFee(FriendlyFee);
+        calc(-1); // this will call the Friendly method
     }
 }
