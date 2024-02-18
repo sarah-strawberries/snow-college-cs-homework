@@ -1,0 +1,16 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Notes</h1>
+
+Welcome to your notes page. <br>
+
+<input @bind = input></input>
+<br>
+<@input/>
+<SurveyPrompt Title="How is Blazor working for you?" />
+@code
+{
+    string input;
+}
